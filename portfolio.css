@@ -755,3 +755,38 @@ footer{
       scale: 0.55;
     }
   }
+
+  @media only screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-items {
+        margin-top: 20px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-section-left,
+    .hero-section-right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .skill-container-left,
+    .skill-container-right {
+        width: 100%;
+    }
+}
