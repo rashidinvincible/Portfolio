@@ -173,8 +173,7 @@ a
 .userimage img
 {
     z-index:-9;
-    width:auto;
-    height:200px;
+    
 }
 @keyframes scaleImage{
     0%
