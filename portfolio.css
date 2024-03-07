@@ -164,6 +164,7 @@ a
 .userimage
 {
     padding:2.5rem;
+    
     filter:grayscale(1);
     transition:all 1s;
     animation:scaleImage 5s linear infinite;
@@ -172,6 +173,8 @@ a
 .userimage img
 {
     z-index:-9;
+    width:auto;
+    height:200px;
 }
 @keyframes scaleImage{
     0%
@@ -727,25 +730,7 @@ footer{
         margin-bottom: 20px;
     }
 
-    .userimage img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .project-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .project-card {
-        width: 90%;
-    }
-
-    .project-content-left,
-    .project-content-right {
-        text-align: center;
         width: 100%;
     }
 
